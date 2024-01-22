@@ -15,10 +15,12 @@ const config: Config = {
       },
     },
     colors: {
-      "first" : "#332941",
-      "second" : "#3B3486",
-      "third" : "#864AF9",
-      "fourth" : "#F8E559",
+      "first" : "#000000",
+      "second" : "#282A3A",
+      "third" : "#735F32",
+      "fourth" : "#C69749",
+      "gray" : "#A9A9A9",
+      "slate": "#708090",
     }
   },
   plugins: [],

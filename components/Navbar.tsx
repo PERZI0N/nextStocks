@@ -13,6 +13,9 @@ import {
   IoPersonOutline,
   IoPersonSharp,
 } from "react-icons/io5";
+import { IoIosSearch } from "react-icons/io";
+import { FaSearch } from "react-icons/fa";
+
 import { usePathname } from "next/navigation";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 
@@ -41,6 +44,14 @@ const sidebarItems: SideNavItemsType[] = [
       icon: <RiStockLine />,
       filledIcon: <RiStockFill />,
     },
+  },
+  {
+    href: "/search",
+    label: "Add more",
+    icon:{
+      icon: <IoIosSearch />,
+      filledIcon: <FaSearch />
+    }
   },
   {
     href: "/news",
